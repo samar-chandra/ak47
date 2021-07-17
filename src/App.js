@@ -7,6 +7,8 @@ import Services from './components/pages/services';
 import Products from './components/pages/products';
 import SignUp from './components/pages/signup';
 import Footer from './components/Footer';
+import HeroSection from './components/HeroSection';
+import Cards from './components/Cards';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path='/products'exact component={Products}/>
         <Route path='/signup'exact component={SignUp}/>
       </Switch>
+      <HeroSection/>
+      <Cards/>
       <Footer/>
     </Router>
     </>
